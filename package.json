@@ -1,0 +1,23 @@
+{
+  "name": "tp2node-wicnudel-kalik",
+  "version": "1.0.0",
+  "description": "tpnode",
+  "keywords": [
+    "Velez1994"
+  ],
+  "homepage": "https://github.com/nicowicnudel/TP2NODE-WICNUDEL-KALIK#readme",
+  "bugs": {
+    "url": "https://github.com/nicowicnudel/TP2NODE-WICNUDEL-KALIK/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicowicnudel/TP2NODE-WICNUDEL-KALIK.git"
+  },
+  "license": "ISC",
+  "author": "KAlik-Wicnudel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "ej01": "node src/ej01.js", "ej02": "node src/ej02.js","ej03": "node src/ej02.js","ej04": "node src/ej02.js","ej05": "node src/ej02.js","ej06": "node src/ej02.js","ej07": "node src/ej02.js"
+  }
+}
