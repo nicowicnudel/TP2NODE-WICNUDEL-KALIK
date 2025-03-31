@@ -6,5 +6,4 @@ console.clear();
 copiar(ARCHIVO_ENTRADA, ARCHIVO_SALIDA);
 function copiar(origen, destino) {
   fs.copyFile(origen, destino, ()=> console.log ("aguante stolar"));
-
 }
