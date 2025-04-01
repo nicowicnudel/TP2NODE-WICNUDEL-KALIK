@@ -26,5 +26,9 @@
     "ej05": "node src/ej05.js",
     "ej06": "node src/ej06.js",
     "ej07": "node src/ej07.js"
+  },
+  "dependencies": {
+    "country-currency-map": "^2.0.0",
+    "currency-map-country": "^1.0.12"
   }
 }
