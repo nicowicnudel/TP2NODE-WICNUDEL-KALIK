@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const APIKEY = "TU_API_KEY_AQUI"; // Reemplaza con tu API Key válida de OMDB
+const APIKEY = "TU_API_KEY_AQUI";
 const BASE_URL = "http://www.omdbapi.com/";
 
 const OMDBSearchByPage = async (searchText, page = 1) => {

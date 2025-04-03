@@ -1,7 +1,7 @@
 import countryCurrencyMap from 'country-currency-map';
 
 function obtenerMoneda(codigoPais) {
-    const pais = countryCurrencyMap[codigoPais]; // Accedemos al país directamente
+    const pais = countryCurrencyMap[codigoPais];
     return pais?.currency || 'Código inválido';
 }
 

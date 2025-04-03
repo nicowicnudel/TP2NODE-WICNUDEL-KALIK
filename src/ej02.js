@@ -2,7 +2,7 @@
 import {PI, sumar, multiplicar, dividir, restar, array} from './modules/metematica.js';
 let totalS, totalM, totalR, totalD, numero1=10, numero2=20;
 console.clear();
-console.log(`La constante PI vale '${PI}'`); // Uso la constante PI importada.
+console.log(`La constante PI vale '${PI}'`);
 totalS = sumar(numero1, numero2); 
 totalM = multiplicar(numero1, numero2); 
 totalR = restar(numero1, numero2); 
