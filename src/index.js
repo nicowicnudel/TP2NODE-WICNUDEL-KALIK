@@ -25,10 +25,10 @@ app.get('/validarfecha/:ano/:mes/:dia', (req, res) => {
     let mes = req.params.mes;
     let dia = req.params.dia;
     let fecha = anio + "-" + mes + "-" + dia;
-    let fechaV = Date.parse(fechita)
+    let fechaV = Date.parse(fecha)
     isNaN(fecha)
-    ? res.status(200).send("fecha correcta")
-    : res.status(400).send("fecha erronea");
+    ? res.status(400).send("fecha correcta")
+    : res.status(200).send("fecha erronea");
 })
 
 app.listen(port, () => {
